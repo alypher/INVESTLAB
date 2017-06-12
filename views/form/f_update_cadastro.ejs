@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+  <form action="/UpdateCadastro" method="post" >
+    <div class="row row-sm-offset">
+        <div class="col-xs-12 col-md-4">
+            <div class="form-group">
+                <input type="hidden" class="form-control" name="codigo_h" id="codigo_h">
+                  <label class="form-control-label"  id="lab_comp_acao">AÇÃO</label>
+                <input type="text" disabled class="form-control" name="codigo_atual" id="codigo_atual">
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-8">
+            <div class="form-group">
+                <input  type="hidden" class="form-control" name="descrica_h" id="descrica_h">
+                <label class="form-control-label">DESCRIÇÃO</label>
+                <input  type="text" disabled  class="form-control" name="descrica_atual" id="descrica_atual">
+            </div>
+        </div>
+      </div>
+
+    <div class="row row-sm-offset">
+        <div class="col-xs-12 col-md-4">
+            <div class="form-group">
+                <label class="form-control-label" id="lab_comp_acao">AÇÃO</label>
+                <input type="text" class="form-control" name="codigo_cadastro" id="codigo_cadastro">
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-8">
+            <div class="form-group">
+                <label class="form-control-label">DESCRIÇÃO</label>
+                <input type="text" class="form-control" name="descricao_cadastro" id="descricao_cadastro">
+            </div>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">ATUALIZAR</button>
+      </div>
+
+  </form>
+</body>
+</html>
